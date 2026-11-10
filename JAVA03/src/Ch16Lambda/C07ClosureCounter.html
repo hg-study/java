@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Closure Counter</title>
+</head>
+<body>
+
+    <script>
+        // 클로저 카운터 ------
+        // 클로저 : 함수가 만들어진 환경의 변수(count)를 반환된 함수가 기억하고 계속 사용하는 기능
+        // createCounter 가 끝나도 count 는 사라지지 않고 increment 가 호출될 때마다 1씩 늘어남
+        function createCounter() {
+            let count = 0;
+
+            // 호출될 때마다 count 를 1 증가시켜 돌려주는 함수
+            function increment() {
+                ++count;
+                return count;
+            }
+
+            // increment 함수 자체를 반환함 (호출하지 않고 함수만 돌려줌)
+            return increment;
+        }
+
+        const counter = createCounter();
+        console.log(counter()); // 출력: 1
+        console.log(counter()); // 출력: 2
+        console.log(counter()); // 출력: 3
+    </script>
+</body>
+</html>
