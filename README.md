@@ -31,6 +31,10 @@
     - [Lambda](#lambda)
     - [Stream](#stream)
     - [Functional Interface](#functional-interface)
+- [EXAM](#exam)
+    - [Environment](#environment)
+    - [Socket Chat](#socket-chat)
+    - [JDBC CRUD](#jdbc-crud)
 
 <br>
 
@@ -122,3 +126,15 @@
 
 #### Functional Interface
 - [Functional Interface 이론](./Theory/14FunctionalInterface.md)
+
+### EXAM
+> 조별 평가 실습 프로젝트 (소켓 채팅, JDBC CRUD)
+
+#### Environment
+- [Environment 이론](./Theory/01Environment.md)
+
+#### Socket Chat
+- [Socket Chat 이론](./Theory/02SocketChat.md)
+
+#### JDBC CRUD
+- [JDBC CRUD 이론](./Theory/03JdbcCrud.md)

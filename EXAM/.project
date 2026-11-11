@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>NetworkProgramming_Ex</name>
+	<comment>NCS 2001020508_19v3 네트워크 프로그래밍 구현 평가 프로젝트 (순수 Java + Swing + Socket + JDBC)</comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<filteredResources>
+		<filter>
+			<id>1778814395842</id>
+			<name></name>
+			<type>30</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>node_modules|\.git|__CREATED_BY_JAVA_LANGUAGE_SERVER__</arguments>
+			</matcher>
+		</filter>
+	</filteredResources>
+</projectDescription>
